@@ -11,7 +11,8 @@ unix_user=chiller
 cstd=0
 copy_maps_from_mod=0
 
-git_branch=insta
+# fix back to insta once https://github.com/ddnet/ddnet/issues/8330 is fixed upstream
+git_branch=hotfix_07_tokens
 
 # env_build=CC=clang CXX=clang++ CXXFLAGS="-fsanitize=address,undefined -fsanitize-recover=address,undefined -fno-omit-frame-pointer" CFLAGS="-fsanitize=address,undefined -fsanitize-recover=address,undefined -fno-omit-frame-pointer"
 # env_runtime=UBSAN_OPTIONS=log_path=./logs/SAN:print_stacktrace=1:halt_on_errors=0 ASAN_OPTIONS=log_path=./logs/SAN:print_stacktrace=1:check_initialization_order=1:detect_leaks=1:halt_on_errors=0
