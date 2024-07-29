@@ -2,7 +2,7 @@
 # https://github.com/DDNetPP/server
 git_root=/home/chiller/git
 gitpath_mod=/home/chiller/git/ddnet-insta
-# gitpath_log=/home/chiller/.teeworlds/dumps/TeeworldsLogs
+gitpath_log=/home/chiller/git/TeeworldsLogsXXXXXX
 compiled_teeworlds_name=DDNet-Server
 cmake_flags=-DCMAKE_BUILD_TYPE=Debug
 editor=vim
