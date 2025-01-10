@@ -2,6 +2,5 @@ password.cfg
 passwords.cfg
 secret.cfg
 secrets.cfg
-cfg-secrets/
-cfg-secrets-shared/
+*-cfg-secrets/
 cfg-tournament/
